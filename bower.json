@@ -1,0 +1,17 @@
+{
+  "name": "anonymous-chat",
+  "description": "",
+  "main": "main.js",
+  "authors": [
+    "Javier Ocampo"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ferroxido/anonymous-chat",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-route": "^1.5.5"
+  },
+  "install": {
+    "path": "public/libs"
+  }
+}
