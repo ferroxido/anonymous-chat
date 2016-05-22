@@ -1,0 +1,21 @@
+html, body{
+  background-color: #181818;
+  color: #FDFDFD;
+}
+
+a{
+  color: #FDFDFD;
+}
+
+section h4{
+  color: #FF4C4C;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}

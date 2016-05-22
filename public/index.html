@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Anonymous Chat</title>
+    <link rel="stylesheet" href="css/creepy-efect.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="/socket.io/socket.io.js"></script>
     <script src="main.js"></script>
 </head>
 <body>
-    <h1>App</h1>
+    <section id="presentation" class="centered">
+        <h1>Anonymous Chat</h1>
+        <h4>Live in fear | <a href="#">Chat now</a></h4>
+    </section>
     <div id="messages"></div>
-    <br/>
     <form onsubmit="return addMessage(this)">
         <input type="text" id="username" placeholder="Tu Nombre">
         <input type="text" id="texto" placeholder="Cuentanos algo...">
